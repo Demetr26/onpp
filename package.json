@@ -26,5 +26,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "postinstall": "node ./fixAndroid/android-release-fix.js"
 }
